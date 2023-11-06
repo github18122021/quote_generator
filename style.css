@@ -1,0 +1,25 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    gap: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: fit-content;
+}
+
+.quote {
+    border-radius: 10px;
+}
