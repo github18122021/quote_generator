@@ -18,3 +18,8 @@ let previous = document.querySelector(".previous");
 let quote = document.querySelector(".quote");
 let next = document.querySelector(".next");
 
+let useData= function(data) {
+    let index = 0;
+    let elm = data[index];
+    quote.textContent = elm.text;
+}
